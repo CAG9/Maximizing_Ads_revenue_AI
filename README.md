@@ -1,1 +1,1 @@
-# Maximizing_Ads_revenue_AI
+# Maximizing ads revenue with Artificial Inteligence 
