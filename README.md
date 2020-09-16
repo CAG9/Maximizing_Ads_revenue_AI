@@ -5,7 +5,11 @@
 ## License : 
 CC BY-NC
 
-## Introduction: 
+## Results: 
+<pre><code>
+Absolute Return for 10000 users: 91300 $
+Relative Return for 10000 users: 94 %
+</code></pre>
 
 
 ## Requirements
