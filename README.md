@@ -27,9 +27,11 @@ will be deployed.
 Relative Return for 10000 users: 94 %
 </code></pre>
 
+The best strategy is the  6th, we gain 91300 dollars using the Thompson sampling instead random sampling. 
+
+
 ![thompson](https://user-images.githubusercontent.com/60860385/93363198-84d3f200-f80c-11ea-918e-8f1b342e4ba1.png)
 
-The best strategy is the  6th, we gain 91300 dollars using the Thompson sampling instead random sampling. 
 
 ## License : 
 CC BY-NC
