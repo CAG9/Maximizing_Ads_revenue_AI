@@ -1,4 +1,5 @@
-# Artificial Intelligence for Business
+#Cesar Arcos : cesar99ag@gmail.com
+
 # Maximizing the Revenues of an Online Retail Business with Thompson Sampling
 
 # Importing the libraries
@@ -7,11 +8,10 @@ import matplotlib.pyplot as plt
 import random
 
 # Setting the parameters
-N = 10000#totalnumber of users 1n = 1user
+N = 10000 #total number of users 1n = 1user
 d = 9
 
 # Creating the simulation
-# conversion_rates = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
 conversion_rates = [0.05,0.13,0.09,0.16,0.11,0.04,0.20,0.08,0.01]
 #Creating the simulated matrix
 X = np.array(np.zeros([N,d]))
@@ -29,7 +29,7 @@ numbers_of_rewards_1 = [0] * d
 numbers_of_rewards_0 = [0] * d
 for n in range(0, N):
     # Random Strategy
-    strategy_rs = random.randrange(d)#we selcected a random strtategy for popup the add 
+    strategy_rs = random.randrange(d)#we selcected a random strtategy for the add 
     strategies_selected_rs.append(strategy_rs)
     reward_rs = X[n, strategy_rs]#we selected the rewards form the matrix we have created before 
     total_reward_rs += reward_rs
@@ -50,9 +50,9 @@ for n in range(0, N):
     total_reward_ts = total_reward_ts + reward_ts
 
 # Computing the Absolute and Relative Return
-absolute_return = (total_reward_ts - total_reward_rs) * 100#amount per usr 100/year
+absolute_return = (total_reward_ts - total_reward_rs) * 100 #amount per user 100/year
 relative_return = (total_reward_ts - total_reward_rs) / total_reward_rs * 100
-print("Absolute Return for 10000 users: {:.0f} $".format(absolute_return))#he amount of $ will earn thanks to thompson sampling 
+print("Absolute Return for 10000 users: {:.0f} $".format(absolute_return))#the amount of $ will earn thanks to thompson sampling 
 print("Relative Return for 10000 users: {:.0f} %".format(relative_return))
 
 # Plotting the Histogram of Selections
