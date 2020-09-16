@@ -1,5 +1,5 @@
 # Maximizing ads revenue with Artificial Inteligence 
-## Authors: 
+## Author: 
 - Cesar Arcos: cesar99ag@gmail.com
 
 ## License : 
