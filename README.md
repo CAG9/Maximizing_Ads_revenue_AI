@@ -1,12 +1,12 @@
 # Maximizing ads revenue with Artificial Inteligence 
-## Author: 
+## Author
 - Cesar Arcos: cesar99ag@gmail.com
 
-## Abstract:
+## Abstract
 Maximize the amount of user subscribed in a premium plan (example: "Amazon Prime"), We deploy 9 strategies with different package, form and special deal.
 We solve this problem with Thompson sampling.
 
-## Problem : 
+## Problem
 Imagine an Online Retail Business that has million of customers. These customers are only people buying
 some products on the website from time to time, getting them delivered at home. The business is doing good,
 but the board of executives has decided to take some action plan to maximize revenue even more. This plan
@@ -22,7 +22,7 @@ Then as the customer navigates the website, he or she will suddenly get a pop-up
 to subscribe to the premium plan. And for each customer browsing the website, only one of the 9 strategies
 will be deployed.
 
-## Results: 
+## Results
 <pre><code>Absolute Return for 10000 users: $ 91300 
 Relative Return for 10000 users: 94 %
 </code></pre>
@@ -33,7 +33,7 @@ The best strategy is the  6th, we gain 91300 dollars using the Thompson sampling
 ![thompson](https://user-images.githubusercontent.com/60860385/93363198-84d3f200-f80c-11ea-918e-8f1b342e4ba1.png)
 
 
-## License : 
+## License
 CC BY-NC
 
 ## Requirements
