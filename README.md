@@ -24,7 +24,7 @@ will be deployed.
 
 ## Results
 <pre><code>Absolute Return for 10000 users: $ 91300 
-Relative Return for 10000 users: 94 %
+Relative Return for 10000 users: 94%
 </code></pre>
 
 The best strategy is the  6th, we gain 91300 dollars using the Thompson sampling instead random sampling. 
